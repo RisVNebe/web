@@ -1,0 +1,229 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Таблица</title>
+        <a href="index.html">Главная</a><br>
+        <a href="table.html">топ 10 русской классики</a><br>
+        <a href="book.html">о книге</a><br>
+      </head>
+<body bgcolor="white">
+    <form>
+    <details>
+        <summary>График</summary>
+          <p>
+            <table cellpadding="10" border="1">
+              <tr>
+                <th>
+                  Произведение
+                </th>
+                <th>
+                  Оси графика
+                </th>
+              </tr>
+              <tr>
+                <td>
+                <form>
+                  <input  type="checkbox" name="book" value="autor"> Автор <br>
+                  <input  type="checkbox" name="book" value="year"> Год <br>
+                  
+                </form>
+                </td>
+                <td align="center">
+                  <input  type="radio" name="xOy" value="xOy"> OX - Автор, OY - год <br>
+                  <input  type="radio" name="xOy" value="yOx"> OX - год, OY - Автор <br>
+                </td>
+              </tr>
+            </table>
+            <input type="button" value="Построить">
+          </p>
+    </details>
+
+    <details>
+        <summary>Фильтр</summary>
+          <p>
+            <form>
+              <label>Автор
+                <input type="text" name="autor" id="autor">
+              </label><br></br>
+              <label>Год
+                <input type="number" name="year" id="year">
+              </label><br></br>
+            </form>
+            <input type="button" value="Найти">
+          </p>
+    </details>
+    
+    <details>
+        <summary>Сортировка</summary>
+          <p>
+            <select name="books">
+              <option value="0"> Год	 </option>
+              <option value="1"> Автор	 </option>
+              <option value="1"> Название	 </option>
+             </select>
+             <select name="percent">
+              <option value="0"> По возрастанию </option>
+              <option value="1"> По убыванию </option>
+             </select><br><br>
+             <input type="button" value="Сортировать">
+          </p>
+    </details>  
+    </form>
+    <table border="2" align="center">
+        <tr align="center">
+            <td>
+            Название
+            </td>
+        <td>
+            Автор
+        </td>
+        <td>
+            Год
+        </td>
+        <td>
+            Изображение
+        </td>
+        </tr>
+        <tr>
+            <td>
+            Мастер и Маргарита
+            </td>
+            <td>
+            Булгаков
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_1.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Евгений Онегин
+            </td>
+            <td>
+            Александр Пушкин
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_2.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Герой нашего времени
+            </td>
+            <td>
+            М.Ю.Лермонтов
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_3.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Анна Каренина
+            </td>
+            <td>
+            Лев Толстой
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_4.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Преступление и наказание 
+            </td>
+            <td>
+            Ф.М.Достоевский
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_5.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Отцы и дети
+            </td>
+            <td>
+            И.С.Тургенев
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_6.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Братья Карамазовы
+            </td>
+            <td>
+            Ф. Достоевский
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_7.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Горе от ума
+            </td>
+            <td>
+            А. Грибоедов
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_8.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Тихий Дон
+            </td>
+            <td>
+            М. Шолохов
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_9.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+        <tr>
+            <td>
+            Доктор Живаго
+            </td>
+            <td>
+            Пастернак
+            </td>
+            <td>
+            1928
+            </td>
+            <td>
+                <img src="book_10.jpg" width="20%" height="20%">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
